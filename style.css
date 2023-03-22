@@ -11,13 +11,64 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 500px;
     background-color: #db1414;
     color: white;
 }
 
-header > video {
-    height: 600px;
+.video_chamada > video {
+    height: 450px;
     border: 20px solid white;
     border-radius: 15px;
+}
+
+.cartoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-image: url("./8038877_25101.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.cartao_inscricao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.75);
+}
+
+h1, h2 {
+    font-size: 20px;
+}
+
+.beneficios {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.traco {
+    color: #db1414;
+}
+
+.inscrever > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.inscrever {
+    background-color: #db1414;
+    padding: 8px;
+    border-radius: 20px;
 }
